@@ -1,115 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oculos</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+
+    <title>Alura MIDI</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/png" href="images/bateria.png">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilos.css">
 
 </head>
 <body>
 
-<header class="header">
+    <h1>Alura Midi</h1>
 
-    <a href="#" class="logo">
-        <img src="images/logo.png" alt="">
-    </a>
+    <section class="teclado">
+        <button class="tecla tecla_pom">Pom</button>
+        <button class="tecla tecla_clap">Clap</button>
+        <button class="tecla tecla_tim">Tim</button>
 
-    <nav class="navbar">
-        <a href="#home">Inicio</a>
-        
-        <a href="#products">Produtos</a>
+        <button class="tecla tecla_puff">Puff</button>
+        <button class="tecla tecla_splash">Splash</button>
+        <button class="tecla tecla_toim">Toim</button>
 
-        <a href="#contact">Localização</a>
-        
-    </nav>
+        <button class="tecla tecla_psh">Psh</button>
+        <button class="tecla tecla_tic">Tic</button>
+        <button class="tecla tecla_tom">Tom</button>
+    </section>
 
-    
-
-  
-
-</header>
-
-<section class="home" id="home">
-
-    <div style="position: center;" class="content">
-        <h3 style="margin-left: 300px;">Loja De Oculos</h3>
-        <p style="margin-left: 300px;" >Bem-Vindo compre óculos da melhor qualidade possivel</p>
-       <p style="margin-left: 300px;" ><a style="color: white;" href="#">Compre Agora</a></p>
-    </div>
-
-</section>
-
-
-
-<section class="products" id="products">
-
-    <h1 class="heading">  <span style="color: white;">Óculos</span> </h1>
-
-    <div class="box-container">
-
-        <div class="box">
-            <div class="image">
-                <img style="height: 100px;" src="oculos1.png" alt="">
-            </div>
-            <div class="content">
-                <h3>óculos de Grau</h3>
-                <div class="price">R$99.99 <span></span></div>
-            </div>
-        </div>
-
-        <div class="box">
-            <div class="image">
-                <img style="height: 100px;" src="oculos2.png" alt="">
-            </div>
-            <div class="content">
-                <h3>Oculos de descanso</h3>
-                <div class="price">R$99.99 <span></span></div>
-            </div>
-        </div>
-
-        <div class="box">
-            
-            <div class="image">
-                <img style="height: 100px;" src="oculos3.webp" alt="">
-            </div>
-            <div class="content">
-                <h3>óculos escuro </h3>
-                <div class="price">R$139.99 <span></span></div>
-            </div>
-        </div>
-
-    </div>
-
-</section>
-
-
-</section>
-<section class="contact" id="contact">
-
-    <h1 class="heading"> <span>Localização</span></h1>
-
-    
-
-        <div style="text-align: center;"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29260.497724532375!2d-46.49279740111734!3d-23.548243219418765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce66dec98fb855%3A0xf2b061ffbcd2ecf8!2sNeo%20Qu%C3%ADmica%20Arena!5e0!3m2!1spt-BR!2sbr!4v1692645464173!5m2!1spt-BR!2sbr" width="500px;" height="500px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
-        
-    
-
-</section>
-
-
-
-</section>
-<section style="background-color: rgb(235, 235, 235);" class="footer">
-
-    
-
-   
-    <div style="color: black;" class="credit"><span style="color: rgb(0, 0, 0);">Thiago e Kauan</span></div>
-
-</section>
+    <audio src="sounds/keyq.wav" id="som_tecla_pom"></audio>
+    <audio src="sounds/keyw.wav" id="som_tecla_clap"></audio>
+    <audio src="sounds/keye.wav" id="som_tecla_tim"></audio>
+    <audio src="sounds/keya.wav" id="som_tecla_puff"></audio>
+    <audio src="sounds/keys.wav" id="som_tecla_splash"></audio>
+    <audio src="sounds/keyd.wav" id="som_tecla_toim"></audio>
+    <audio src="sounds/keyz.wav" id="som_tecla_psh"></audio>
+    <audio src="sounds/keyx.wav" id="som_tecla_tic"></audio>
+    <audio src="sounds/keyc.wav" id="som_tecla_tom"></audio>
 
 </body>
 </html>
